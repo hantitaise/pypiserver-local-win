@@ -93,6 +93,11 @@ If (!(test-path -PathType container $path_venv)) {
     New-Item -ItemType Directory -Path $path_venv
 }
 
+$path_venv = ".\packages"
+If (!(test-path -PathType container $path_venv)) {
+    New-Item -ItemType Directory -Path $path_venv
+}
+
 #update package install
 ./upd.install.packages.cmd
 
