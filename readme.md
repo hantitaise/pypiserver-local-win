@@ -1,6 +1,7 @@
 # Pypiserver for windows
 
-no requirement needed all packages are integrated
+No requirement needed all packages are integrated. \
+Except windows system (test on win10, win11)
 
 how use \
 ```git clone https://github.com/hantitaise/pypiserver-local-win.git```
@@ -39,3 +40,9 @@ to unsintall
 ### License
 
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Features
+
+- [ ]  Release: zip [#2](https://github.com/hantitaise/pypiserver-local-win/issues/2)
+- [ ]  Release: installer (msi/exe) [#3](https://github.com/hantitaise/pypiserver-local-win/issues/3)
+- [ ]  Powershell IIs proxy add to installation[#4](https://github.com/hantitaise/pypiserver-local-win/issues/4)
