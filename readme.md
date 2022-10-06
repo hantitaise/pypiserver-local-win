@@ -43,6 +43,6 @@ to unsintall
 
 ## Features
 
-- [ ]  Release: zip #2
-- [ ]  Release: installer (msi/exe) #3
-- [ ]  Powershell IIs proxy add to installation #4
+- [ ]  Release: zip [#2](https://github.com/hantitaise/pypiserver-local-win/issues/2)
+- [ ]  Release: installer (msi/exe) [#3](https://github.com/hantitaise/pypiserver-local-win/issues/3)
+- [ ]  Powershell IIs proxy add to installation[#4](https://github.com/hantitaise/pypiserver-local-win/issues/4)
