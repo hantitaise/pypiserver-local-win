@@ -35,3 +35,7 @@ to unsintall
 * [python3](https://www.python.org/) for windows 
   * test validate with 3.10.7
 * [pipenv](https://github.com/pypa/pipenv)
+
+### License
+
+[Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
