@@ -1,0 +1,1 @@
+pip download -r ./download.txt -d ./packages
