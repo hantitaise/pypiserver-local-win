@@ -10,7 +10,6 @@ function install_python {
 }
 
 function pipenv_install($package) {
-    # install pypiserver
     $search_package = Get-ChildItem ./install/packages -Filter $package* | Select-Object -First 1 | Select name
     $cmd_pipenv_install = "pipenv run pip install ./install/packages/" + $search_package.Name + " -f ./install/packages --no-index"
 
@@ -27,7 +26,6 @@ function pipenv_install($package) {
 
 
 function pip_install($package) {
-    # install pypiserver
     $search_package = Get-ChildItem ./install/packages -Filter $package* | Select-Object -First 1 | Select name
     $cmd_pipenv_install = "pip install ./install/packages/" + $search_package.Name + " -f ./install/packages --no-index"
 
@@ -111,7 +109,6 @@ pip_install("pipenv")
 
 # install inside venv
 pipenv_install("pypiserver")
-#pipenv_install("hypercorn")
 
 
 $Port = 8080
