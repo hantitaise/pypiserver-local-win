@@ -11,9 +11,11 @@ go to your directory with \
 start with \
 ```install.ps1```
 
-load packages
-    * first edit download.txt add packages or remove packages to or from  existing  (one by line)\
-    * ```install.ps1```
+load packages \
 
-to unsintall\
+    * first edit download.txt add packages or remove packages to or from  existing  (one by line)\
+    * ```upd.packages.cmd```
+
+to unsintall \
+
     * ```uninstall.ps1```
