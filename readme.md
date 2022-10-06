@@ -1,5 +1,7 @@
 ## Pypiserver for windows
 
+no requirement needed all packages are integrated
+
 how use \
 ```git clone https://github.com/hantitaise/pypiserver-local-win.git```
 
@@ -19,3 +21,17 @@ load packages
 to unsintall 
 
 * ```uninstall.ps1```
+
+
+Thank you for 
+
+# based on existing code of :
+
+*[pypiserver](https://github.com/pypiserver/pypiserver)
+*[svcbatch](https://github.com/mturk/svcbatch) 
+
+# based on :
+
+*[python3](https://www.python.org/) for windows 
+  * test validate with 3.10.7
+*[pipenv](https://github.com/pypa/pipenv)
