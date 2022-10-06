@@ -36,6 +36,8 @@ to unsintall
   * test validate with 3.10.7
 * [pipenv](https://github.com/pypa/pipenv)
 
-***
+---
 
-[apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
+<div style="text-align: center;">
+[Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
+ </div>
