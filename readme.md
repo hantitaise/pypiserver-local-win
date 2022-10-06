@@ -15,7 +15,9 @@ start with \
 
 load packages 
 
-* first edit download.txt add packages or remove packages to or from  existing  (one by line)\
+* first edit ```download.txt``` (one by line)
+  * add packages 
+  * remove packages
 * ```upd.packages.cmd```
 
 to unsintall 
