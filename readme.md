@@ -27,11 +27,11 @@ Thank you for
 
 # based on existing code of :
 
-*[pypiserver](https://github.com/pypiserver/pypiserver)
-*[svcbatch](https://github.com/mturk/svcbatch) 
+* [pypiserver](https://github.com/pypiserver/pypiserver)
+* [svcbatch](https://github.com/mturk/svcbatch) 
 
 # based on :
 
-*[python3](https://www.python.org/) for windows 
+* [python3](https://www.python.org/) for windows 
   * test validate with 3.10.7
-*[pipenv](https://github.com/pypa/pipenv)
+* [pipenv](https://github.com/pypa/pipenv)
