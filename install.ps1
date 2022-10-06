@@ -93,9 +93,14 @@ If (!(test-path -PathType container $path_venv)) {
     New-Item -ItemType Directory -Path $path_venv
 }
 
-$path_venv = ".\packages"
-If (!(test-path -PathType container $path_venv)) {
-    New-Item -ItemType Directory -Path $path_venv
+$path_packages = ".\packages"
+If (!(test-path -PathType container $path_packages)) {
+    New-Item -ItemType Directory -Path $path_packages
+}
+
+$path_logs = ".\Logs"
+If (!(test-path -PathType container $path_logs)) {
+    New-Item -ItemType Directory -Path $path_logs
 }
 
 #update package install
