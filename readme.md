@@ -23,8 +23,6 @@ to unsintall
 * ```uninstall.ps1```
 
 
-## Thank you for 
-
 ### based on existing code of :
 
 * [pypiserver](https://github.com/pypiserver/pypiserver)
