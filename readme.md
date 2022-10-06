@@ -1,4 +1,4 @@
-## Pypiserver for windows
+# Pypiserver for windows
 
 no requirement needed all packages are integrated
 
@@ -23,14 +23,14 @@ to unsintall
 * ```uninstall.ps1```
 
 
-Thank you for 
+##Thank you for 
 
-# based on existing code of :
+### based on existing code of :
 
 * [pypiserver](https://github.com/pypiserver/pypiserver)
 * [svcbatch](https://github.com/mturk/svcbatch) 
 
-# based on :
+### based on :
 
 * [python3](https://www.python.org/) for windows 
   * test validate with 3.10.7
