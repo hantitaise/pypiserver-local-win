@@ -43,6 +43,6 @@ to unsintall
 
 ## Features
 
-* Release: zip
-* Release: installer (msi/exe)
-* Powershell IIs proxy add to installation
+- [ ]  Release: zip
+- [ ]  Release: installer (msi/exe)
+- [ ]  Powershell IIs proxy add to installation
