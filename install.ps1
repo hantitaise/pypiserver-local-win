@@ -1,6 +1,6 @@
 function install_python {
     write-host "Python in progress"
-    $cmd_python_install = "./install/python-3.10.7-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0 TargetDir=c:\Python310"
+    $cmd_python_install = "./install/python-3.10.8-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0 TargetDir=c:\Python310"
     try {
         Invoke-Expression -Command $cmd_python_install | Out-String -OutVariable $cmd_python_install_result
     }
